@@ -33,7 +33,7 @@ export function renderGrid(): void {
 //  - 要素の背景色は style.backgroundColor で変えられる。
 export function renderCell(index: number, color: string): void {
   // ステップ0 ではコンソールに座標が出るだけ。
-  console.log("塗ったマス:", index, "　塗った色:", color);
+  console.log("塗ったマス:", index, "塗った色:", color);
 
   // TODO（ステップ1）: ここに DOM 操作を書いて、マスの色を変える。
   const cells = document.getElementsByClassName("pixel-cell");
